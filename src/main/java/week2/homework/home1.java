@@ -11,7 +11,8 @@ public class home1 {
     {
         float number;
         Scanner scan = new Scanner(System.in);
-        System.out.print(" Input : "); number = scan.nextFloat();
+        System.out.print(" Input : "); 
+        number = scan.nextFloat();
         
         if(number - (int)number == 0 )
         {

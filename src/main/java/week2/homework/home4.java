@@ -9,6 +9,7 @@ public class home4
     public static void main(String[] args) 
     {
       int n;
+      int m =0;
       Scanner scan = new Scanner(System.in);
       System.out.print(" Input = ");
       n = scan.nextInt();
@@ -23,8 +24,10 @@ public class home4
           {
           System.out.print(" เลข หาร 3 ลงตัว = ");
           System.out.println(i);
+          m=m+1;
           }
       }
+        System.out.println("จำนวนที่หารด้วย 3 ลง ตัว มี " + m + " ตัว");
     }
     
 }
